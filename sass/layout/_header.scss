@@ -1,0 +1,10 @@
+.header-container{
+    background-color:$color-dark-black;
+    position: relative;
+    min-height: 10rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    & .logo{
+        padding-left: 2rem;
+    }
+}

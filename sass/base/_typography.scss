@@ -1,0 +1,178 @@
+//Titles
+.logo{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-size:4.5rem;
+    font-weight: 600;
+    color:$color-black;
+}
+
+.logo-title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-size:4.4rem;
+    font-weight: 350;
+    color:$color-black;
+}
+
+.heading{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-size:3rem;
+    font-weight: 450;
+    color:$color-black-lite;
+}
+
+.title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-size:4rem;
+    font-weight: 500;
+    color:$color-black-lite;
+}
+
+.sub-title{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    font-style: normal;
+    font-variant: normal;
+    margin-top: 1.5rem;
+    font-size:3.8rem;
+    font-weight: 400;
+    color:$color-black-lite;
+
+    &--1{
+        font-size:3.8rem;
+    }
+
+    &--2{
+        font-size:3.5rem;
+    }
+
+    &--3{
+        font-size:3.2rem;
+    }
+}
+
+
+.tile-title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-size:3.75rem;
+    font-weight: 500;
+    color:$color-black;
+}
+
+
+.info{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-size:2rem;
+    font-weight: 400;
+    color:$color-black;
+}
+
+
+.paragraph{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-size:2rem;
+    font-weight: 300;
+    line-height: 1.67;
+    color:$color-black;
+}
+
+
+
+.footer{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-size:1.5rem;
+    font-weight: 250;
+    color:$color-dark-white;
+}
+
+//table & grid
+.table-header{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-size:2rem;
+    font-weight: 400;
+    color:$color-white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.col-val{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-size:2rem;
+    font-weight: 370;
+    color:$color-black;
+    padding: 1rem;
+    text-align: center;
+}
+
+//Utilities
+.bold{
+    font-weight: 500;
+}
+
+.semi-bold{
+    font-weight: 410;
+}
+
+.white{
+    color: $color-white;
+}
+
+.black-lighter{
+    color:$color-black-lighter;
+}
+
+.blue{
+    color:$color-blue-link;
+}
+
+.black{
+    color:$color-black;
+}
+
+
+//anchor tags
+
+a {
+    text-decoration: none;
+}
+
+.arrow-link{
+    &:hover{
+        text-decoration: underline;
+    }
+    &:after{
+        content: "";
+        background: url("../../img/external-link.svg");
+        background-repeat: no-repeat;
+        height: 2rem;
+        width: 2rem;
+        position: absolute;
+        display: inline-block;
+        margin: 0 0.5rem;
+        margin-top: 1.1rem;
+    }
+}
+
+.highlight{
+    color: $color-blue-link;
+    font-weight: 450;
+}

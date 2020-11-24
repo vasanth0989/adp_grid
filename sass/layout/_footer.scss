@@ -1,0 +1,11 @@
+footer{
+    height: 6rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: $color-black;
+
+    & span{
+        margin-left: 5px;
+    }
+}

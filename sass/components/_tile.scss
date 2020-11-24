@@ -1,0 +1,49 @@
+.tile{
+    
+    min-height: 25rem;
+    border-radius: 23px;
+    box-shadow: 6px 6px 6px $color-shadow-light;
+    cursor: pointer;
+    transform: translateY(0);
+    transition: all .1s;
+    
+
+    & svg{
+        display: inline-block;
+        height:7rem;
+        width: 7rem;
+        margin-left: -2.5rem;
+    }
+
+    & > *{
+        padding: 1rem;
+    }
+
+    &:hover{
+        transform: translateY(-1rem);
+    }
+
+    &--1{
+      background: linear-gradient(to right,$color-pink,$color-orange-light);
+    }
+
+    &--2{
+        background: linear-gradient(to right,$color-orange,$color-yellow);
+    }
+
+    &--3{
+        background: linear-gradient(to right,$color-purple,$color-blue);
+    }
+
+    &--4{
+        background: linear-gradient(to right,$color-blue-sky,$color-blue-dark);
+    }
+
+    &--5{
+        background: linear-gradient(to right,$color-blue-navy,$color-purple-light);
+    }
+
+    &--6{
+        background: linear-gradient(to right,$color-dark-pink,$color-blue-darker);
+    }
+}

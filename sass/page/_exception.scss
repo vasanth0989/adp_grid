@@ -1,0 +1,33 @@
+.exception-container{
+
+    .tech-flow{
+
+    }
+}
+
+.data-container{
+    
+    & .grid-title{
+        grid-row: 1;
+        grid-template-columns: repeat(6,minmax(5rem,1fr));
+        background-color: $color-black-lite;
+        // grid-gap: 1rem;
+        align-items: center;
+        height: 2.5rem;
+        margin-bottom: 0.75rem;
+    }
+
+    & .grid-data{
+        grid-template-columns: repeat(6,minmax(5rem,1fr));
+        height: 2.5rem;
+        align-items: center;
+        margin-bottom: 0.65rem;
+        &:nth-child(even){
+            background-color: $color-dark-white;
+        }
+        &:nth-child(odd){
+            background-color: $color-darker-white;
+        }
+    }
+    
+}

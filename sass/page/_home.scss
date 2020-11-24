@@ -1,0 +1,10 @@
+.tile-container{
+    position: relative;
+    margin-top:5rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+    grid-gap: 10rem;
+
+    & a:active{
+        transform: translateY(5px);
+    }
+}
